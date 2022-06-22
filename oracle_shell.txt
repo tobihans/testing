@@ -1,0 +1,11 @@
+set oracleSID = orcl;
+sqlplus /nolog;
+connnect as sysdba;
+
+create user admin identified by admin default tablespace users temporary tablespace temp;
+select * from all_users;
+
+
+-----------------------------------------------------------------------------------------
+- nvl(to args),when making requestion for calculation
+- 
